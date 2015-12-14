@@ -105,6 +105,8 @@ class RequestViewController: UIViewController {
                 print("no data found: \(error)")
                 dispatch_async(dispatch_get_main_queue(), {
                     self.server_status.setTitle("Offline", forSegmentAtIndex: 1)
+                    self.Photo.image = UIImage(named: "Cancel-50")
+                    self.progress_bar.setProgress(1.0, animated: false)
                 })
 
                 return

@@ -10,9 +10,8 @@
 		8510F49B1C07A56100BF2327 /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8510F49A1C07A56100BF2327 /* Reachability.swift */; };
 		8510F49D1C10B1D500BF2327 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8510F49C1C10B1D500BF2327 /* ViewController.swift */; };
 		8510F49F1C10B27D00BF2327 /* RequestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8510F49E1C10B27D00BF2327 /* RequestViewController.swift */; };
-		8510F4A11C1112A500BF2327 /* Ok-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 8510F4A01C1112A500BF2327 /* Ok-50.png */; };
-		8510F4A31C1112AB00BF2327 /* Cancel-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 8510F4A21C1112AB00BF2327 /* Cancel-50.png */; };
-		8539F9561BFA83FA0022AC69 /* AppIcon.appiconset in Resources */ = {isa = PBXBuildFile; fileRef = 8539F9551BFA83FA0022AC69 /* AppIcon.appiconset */; };
+		85560BC81C1F56290043D851 /* AppIcon.appiconset in Resources */ = {isa = PBXBuildFile; fileRef = 85560BC71C1F56290043D851 /* AppIcon.appiconset */; };
+		85560BCC1C1F56AB0043D851 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 85560BCB1C1F56AB0043D851 /* Images.xcassets */; };
 		85F9C0241BE8113000FE1DAC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85F9C0231BE8113000FE1DAC /* AppDelegate.swift */; };
 		85F9C0291BE8113000FE1DAC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 85F9C0271BE8113000FE1DAC /* Main.storyboard */; };
 		85F9C0311BE8113000FE1DAC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 85F9C02F1BE8113000FE1DAC /* LaunchScreen.storyboard */; };
@@ -42,9 +41,8 @@
 		8510F49A1C07A56100BF2327 /* Reachability.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
 		8510F49C1C10B1D500BF2327 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		8510F49E1C10B27D00BF2327 /* RequestViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RequestViewController.swift; sourceTree = "<group>"; };
-		8510F4A01C1112A500BF2327 /* Ok-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Ok-50.png"; path = "AppIcon.appiconset/Ok-50.png"; sourceTree = "<group>"; };
-		8510F4A21C1112AB00BF2327 /* Cancel-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Cancel-50.png"; path = "AppIcon.appiconset/Cancel-50.png"; sourceTree = "<group>"; };
-		8539F9551BFA83FA0022AC69 /* AppIcon.appiconset */ = {isa = PBXFileReference; lastKnownFileType = folder; path = AppIcon.appiconset; sourceTree = "<group>"; };
+		85560BC71C1F56290043D851 /* AppIcon.appiconset */ = {isa = PBXFileReference; lastKnownFileType = folder; name = AppIcon.appiconset; path = ../AppIcon.appiconset; sourceTree = "<group>"; };
+		85560BCB1C1F56AB0043D851 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		85F9C0201BE8113000FE1DAC /* Subway Cookie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Subway Cookie.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		85F9C0231BE8113000FE1DAC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		85F9C0281BE8113000FE1DAC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -110,14 +108,13 @@
 				85F9C0231BE8113000FE1DAC /* AppDelegate.swift */,
 				85F9C0271BE8113000FE1DAC /* Main.storyboard */,
 				8510F49C1C10B1D500BF2327 /* ViewController.swift */,
-				8510F4A21C1112AB00BF2327 /* Cancel-50.png */,
-				8510F4A01C1112A500BF2327 /* Ok-50.png */,
-				8539F9551BFA83FA0022AC69 /* AppIcon.appiconset */,
 				85F9C02F1BE8113000FE1DAC /* LaunchScreen.storyboard */,
 				85F9C0321BE8113000FE1DAC /* Info.plist */,
 				85F9C0541BE8DB4700FE1DAC /* LogItem.swift */,
 				8510F49A1C07A56100BF2327 /* Reachability.swift */,
 				8510F49E1C10B27D00BF2327 /* RequestViewController.swift */,
+				85560BCB1C1F56AB0043D851 /* Images.xcassets */,
+				85560BC71C1F56290043D851 /* AppIcon.appiconset */,
 			);
 			path = "Subway Cookie";
 			sourceTree = "<group>";
@@ -208,7 +205,6 @@
 				TargetAttributes = {
 					85F9C01F1BE8113000FE1DAC = {
 						CreatedOnToolsVersion = 7.1;
-						DevelopmentTeam = 3DK45X6K83;
 						SystemCapabilities = {
 							com.apple.BackgroundModes = {
 								enabled = 1;
@@ -250,10 +246,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8510F4A11C1112A500BF2327 /* Ok-50.png in Resources */,
 				85F9C0311BE8113000FE1DAC /* LaunchScreen.storyboard in Resources */,
-				8539F9561BFA83FA0022AC69 /* AppIcon.appiconset in Resources */,
-				8510F4A31C1112AB00BF2327 /* Cancel-50.png in Resources */,
+				85560BCC1C1F56AB0043D851 /* Images.xcassets in Resources */,
+				85560BC81C1F56290043D851 /* AppIcon.appiconset in Resources */,
 				85F9C0291BE8113000FE1DAC /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
