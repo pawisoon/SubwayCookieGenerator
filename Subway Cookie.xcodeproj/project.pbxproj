@@ -205,6 +205,7 @@
 				TargetAttributes = {
 					85F9C01F1BE8113000FE1DAC = {
 						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = 3DK45X6K83;
 						SystemCapabilities = {
 							com.apple.BackgroundModes = {
 								enabled = 1;
@@ -423,6 +424,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "Subway Cookie/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.szydlowsky.apps.Subway-Cookie";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -437,6 +439,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "Subway Cookie/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.szydlowsky.apps.Subway-Cookie";
 				PRODUCT_NAME = "$(TARGET_NAME)";

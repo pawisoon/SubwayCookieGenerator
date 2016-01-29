@@ -20,7 +20,7 @@ class RequestViewController: UIViewController {
     
     var canStartPinging = false
     
-    let api_address = "http://localhost:4567"
+    let api_address = "http://subwaycookie.ddns.net:4000"
     //Properties: 
     
     @IBOutlet weak var Photo: UIImageView!
@@ -39,8 +39,8 @@ class RequestViewController: UIViewController {
         if !Reachability.isConnectedToNetwork(){
             dispatch_async(dispatch_get_main_queue(), {
                 //print("Not connected to the internet.")
+                self.Photo.image = UIImage(named: "Cancel-50") as UIImage!
                 self.server_status.setTitle("No internet.", forSegmentAtIndex: 1)
-                self.Photo.image = UIImage(named: "Cancel-50")
                 self.progress_bar.setProgress(1.0, animated: false)
             })
             
@@ -159,6 +159,7 @@ class RequestViewController: UIViewController {
                 
                 let yesAction = UIAlertAction(title: "Ok", style: .Default) { (action) -> Void in
                     print("The user is okay.")
+                    self.Photo.image = UIImage(named: "Ok-50")
                 }
                 alert.addAction(yesAction)
                 
