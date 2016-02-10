@@ -19,8 +19,7 @@ class RequestViewController: UIViewController {
     var shortMinutes: String = ""
     
     var canStartPinging = false
-    
-    let api_address = "http://subwaycookie.ddns.net:4000"
+    let api_address = "http://localhost:4567"
     //Properties: 
     
     @IBOutlet weak var Photo: UIImageView!
